@@ -6,7 +6,7 @@ module.exports = {
     'postcss-math',
     ['postcss-functions', {
       functions: {
-        responsive(min, max, rangeMin, rangeMax) {
+        responsive(min, max, rangeMin = '400px', rangeMax = '1280px') {
           return `
             calc(
               ${min} + (${parseFloat(max)} - ${parseFloat(min)}) *

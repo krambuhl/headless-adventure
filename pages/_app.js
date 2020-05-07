@@ -9,7 +9,7 @@ export default function CustomApp({
   return (
     <AppLayout>
       <Head>
-        <title>Rainbow Trip</title>
+        <title>Strapi Adventure</title>
       </Head>
       <Component {...pageProps} />
     </AppLayout>
