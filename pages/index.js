@@ -18,9 +18,3 @@ export const getStaticProps = async ({ preview }) => {
   }
 }
 
-export const getStaticPaths = async () => ({
-  paths: [{
-    params: { }
-  }],
-  fallback: true
-})
