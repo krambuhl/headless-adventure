@@ -1,11 +1,11 @@
 {
-  "name": "rainbow-trip",
+  "name": "headless-adventure",
   "version": "1.0.0",
   "main": "next.config.js",
   "engines": {
     "node": "^10"
   },
-  "repository": "git@github.com:krambuhl/rainbow-trip.git",
+  "repository": "git@github.com:krambuhl/headless-adventure.git",
   "author": "Eevee Kreevee <thekrambuhl@gmail.com>",
   "license": "MIT",
   "scripts": {
