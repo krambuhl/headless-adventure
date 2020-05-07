@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import '@styles/app.css'
-import { AppLayout } from '@components/display'
+import { AppLayout, PublishStatusIndicator } from '@components/display'
 
 export default function CustomApp({
   Component,
@@ -11,6 +11,8 @@ export default function CustomApp({
       <Head>
         <title>Strapi Adventure</title>
       </Head>
+
+      <PublishStatusIndicator {...pageProps} />
       <Component {...pageProps} />
     </AppLayout>
   )
