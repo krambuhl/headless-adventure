@@ -1,0 +1,32 @@
+.root {
+  & > * + * {
+    margin-top: min(18px, 0.75em);
+  }
+
+  :global {
+    strong { font-weight: bold; }
+    em { font-style: italic; }
+    u { text-decoration: underline; }
+
+    code {
+      border: 1px solid var(--color-outline);
+      border-radius: 3px;
+      padding: 0 0.3em;
+    }
+
+    ul {
+      list-style: square outside;
+      padding-left: 40px;
+    }
+
+    ol {
+      list-style: decimal outside;
+      padding-left: 40px;
+    }
+
+    blockquote {
+      border-left: 4px solid var(--color-outline);
+      padding-left: var(--padding);
+    }
+  }
+}

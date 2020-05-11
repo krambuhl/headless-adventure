@@ -1,0 +1,30 @@
+.root {
+  background-color: #222;
+  border: 2px solid var(--color-highlight-alt);
+  max-width: 640px;
+  overflow: auto;
+  padding: var(--padding);
+  position: relative;
+
+  code {
+    display: block;
+  }
+
+  img,
+  video {
+    display: block;
+    max-width: 720px;
+    width: 100%;
+  }
+}
+
+.name {
+  background-color: var(--color-highlight-alt);
+  font-size: 0.8em;
+  font-weight: normal;
+  left: 0;
+  line-height: 1em;
+  padding: 0.25em 0.4em;
+  position: absolute;
+  top: 0;
+}

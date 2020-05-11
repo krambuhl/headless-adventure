@@ -1,3 +1,5 @@
 export { default as AppLayout } from './AppLayout/AppLayout'
 export { default as Heading } from './Heading/Heading'
 export { default as PublishStatusIndicator } from './PublishStatusIndicator/PublishStatusIndicator'
+export { default as RichText } from './RichText/RichText'
+export { default as TextNode } from './TextNode/TextNode'

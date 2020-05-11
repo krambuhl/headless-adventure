@@ -9,7 +9,7 @@ export default function CustomApp({
   return (
     <AppLayout>
       <Head>
-        <title>Strapi Adventure</title>
+        <title>Headless Adventure</title>
       </Head>
 
       <PublishStatusIndicator {...pageProps} />

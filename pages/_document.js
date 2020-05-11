@@ -1,7 +1,7 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 
 const siteUrl = 'https://stumptownbear.com'
-const siteName = 'Strapi Adventure'
+const siteName = 'Headless Adventure'
 const author = 'Evan Krambuhl'
 const handle = '@eeveekreevee'
 const description = ''

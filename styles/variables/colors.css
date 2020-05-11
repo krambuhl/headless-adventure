@@ -3,6 +3,7 @@
   --color-text: #fff;
   --color-subtle: #bbb;
   --color-highlight: #ba40c1;
+  --color-highlight-alt: #40c1ba;
   --color-outline: #333;
 
   @media (prefers-color-scheme: light) {

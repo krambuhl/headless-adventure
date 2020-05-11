@@ -10,7 +10,7 @@
           "./"
         ],
         "alias": {
-          "@components/util": "./components/01-util",
+          "@components/utils": "./components/01-utils",
           "@components/display": "./components/02-display",
           "@components/container": "./components/03-container",
           "@contexts": "./contexts",

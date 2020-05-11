@@ -1,11 +1,11 @@
 import { drafts, published } from '@lib/contentful/clients'
 import parseEntry from '@lib/contentful/parseEntry'
 
-export default (req, res) => {
-  const { preview } = req.query
-  const client = preview !== undefined ? drafts : published
+export default (req = {}, res) => {
+  const { preview } = req.query || {}
+  const client = preview ? drafts : published
 
-  client.getEntries()
+  return client.getEntries()
     .then(response => {
       res.json(response.items.map(entry => parseEntry(entry)))
     })

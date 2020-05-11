@@ -19,11 +19,12 @@ body {
 }
 
 a {
-  color: var(--color-subtle);
+  color: var(--color-highlight);
 
   &:focus,
   &:hover {
     color: var(--color-highlight);
+    text-decoration: underline;
   }
 }
 

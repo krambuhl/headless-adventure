@@ -1,0 +1,17 @@
+.root {
+  border: 2px solid var(--color-highlight);
+  overflow: auto;
+  padding: var(--padding);
+  position: relative;
+}
+
+.name {
+  background-color: var(--color-highlight);
+  font-size: 0.8em;
+  font-weight: normal;
+  left: 0;
+  line-height: 1em;
+  padding: 0.25em 0.4em;
+  position: absolute;
+  top: 0;
+}

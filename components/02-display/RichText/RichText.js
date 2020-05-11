@@ -1,7 +1,9 @@
 import classnames from 'classnames'
-import css from './AppLayout.module.css'
+import css from './RichText.module.css'
 
-export default function AppLayout ({
+import { NodeMatrix } from '@components/utils'
+
+export default function RichText ({
   className,
   children,
   ...props
@@ -10,9 +12,7 @@ export default function AppLayout ({
 
   return (
     <div className={classList} {...props}>
-      <div className={css.container}>
-        {children}
-      </div>
+      <NodeMatrix {...children} />
     </div>
   )
 }

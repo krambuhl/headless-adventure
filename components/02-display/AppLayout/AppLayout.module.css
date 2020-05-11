@@ -1,3 +1,10 @@
 .root {
-  /* empty */
+  align-content: center;
+  display: flex;
+  min-height: 100vh;
+  padding: var(--padding);
+}
+
+.container {
+  /* max-width: 720px; */
 }
