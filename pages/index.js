@@ -3,7 +3,6 @@ import { RichText } from '@components/display'
 import { drafts, published } from '@lib/contentful/clients'
 import { clientWrapper } from '@lib/contentful/helpers'
 
-
 export default function IndexPage(props) {
   const { entries } = props
 

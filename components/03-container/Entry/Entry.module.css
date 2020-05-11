@@ -8,6 +8,7 @@
 .name {
   background-color: var(--color-highlight);
   font-size: 0.8em;
+  font-style: normal;
   font-weight: normal;
   left: 0;
   line-height: 1em;

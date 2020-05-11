@@ -22,7 +22,7 @@ export default function NodeMatrix (contentProps) {
 
   switch (nodeType) {
     case 'document': return <React.Fragment>{children}</React.Fragment>
-    case 'paragraph': return <p {...props} />
+    case 'paragraph': return <div {...props} />
     case 'hr': return <hr />
     case 'ordered-list': return <ol {...props} />
     case 'unordered-list': return <ul {...props} />
