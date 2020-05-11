@@ -11,7 +11,7 @@ export default function IndexPage(props) {
     <React.Fragment>
       {
         entries.map(({ id, name, description }) => (
-          <div key={id} style={{ marginBottom: 20, border: '3px solid red' }}>
+          <div key={id} style={{ marginBottom: 20 }}>
             <h1><Link href="/[id]" as={`/${id}`}><a>{name}</a></Link></h1>
             <RichText style={{ marginTop: 10 }}>{description}</RichText>
           </div>
