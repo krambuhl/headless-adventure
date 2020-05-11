@@ -12,7 +12,7 @@ export default function CustomApp({
         <title>Headless Adventure</title>
       </Head>
 
-      <PublishStatusIndicator {...pageProps} />
+      {/* <PublishStatusIndicator {...pageProps} /> */}
       <Component {...pageProps} />
     </AppLayout>
   )
