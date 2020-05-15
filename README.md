@@ -1,3 +1,3 @@
-# Strati Adventure
+# Headless Adventure
 
-Going on an adventure with [strapi.io](https://strapi.io/)
+Going on a headless adventure!
